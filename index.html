@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="./css/reset.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Frontend Mentor | NFT preview card component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -16,18 +18,65 @@
 </head>
 <body>
 
-  Equilibrium #3429
+    <main class="container-fluid main_container">
 
-  Our Equilibrium collection promotes balance and calm.
+      <div id="card" class="row mx-auto card_container align-self-center shadow_cardStatic">
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+        <div class="col-md-auto">
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+          <div class="row">
+            <div class="col-12">
+              <img class="img_equilibrium" src="./images/image-equilibrium.jpg" alt="Equilibrium">
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <h4 class="margin_title">Equilibrium #3429</h4>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12">
+              <p class="text_description">Our Equilibrium collection promotes balance and calm.</p>
+            </div>
+          </div>
+
+          
+
+          <div class="row">
+            <div class="col-6 d-flex align-items-center">
+              <img class="" src="./images/icon-ethereum.svg" alt="icon-ethereum">
+              <span class="value_etherum text">0.041 ETH</span>
+            </div>
+              <div class="col-6 d-flex align-items-center justify-content-end">
+                <img src="./images/icon-clock.svg" alt="icon-clock">
+                <span class="time_etherum text">3 days left</span>
+              </div>
+        </div>
+
+          <hr>
+
+          <div class="row margin_user">
+
+            <div class="col-12 d-flex align-items-center">
+              <img class="avatar_user" src="./images/image-avatar.png" alt="image-avatar">
+              <span class="value_etherum text second_part_text"><span class="first_part_text">Creation of</span> Jules Wyvern</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- <div class="row">
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </div> -->
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="./js/script.js"></script>
 </body>
 </html>

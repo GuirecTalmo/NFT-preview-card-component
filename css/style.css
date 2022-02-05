@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+
+    font-family: 'Outfit', sans-serif;
+    color: #fff;
+}
+
+.main_container {
+
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    height: 100vh;
+
+}
+
+.card_container{
+
+    max-width: 380px;
+    background-color: hsl(216, 50%, 16%);
+    max-height: 650px;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.shadow_cardStatic{
+
+    box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 83%);
+    -webkit-box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 25%);
+    -moz-box-shadow: 0px 0px 26px 12px rgba(5,5,5,0.83);
+}
+
+.shadow_cardAnimationStop{
+    
+    box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 83%);
+    -webkit-box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 25%);
+    -moz-box-shadow: 0px 0px 26px 12px rgba(5,5,5,0.83);
+    animation: pulse-black 1s infinite;
+    animation-play-state: paused;
+}
+
+.shadow_cardAnimation{
+
+    box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 83%);
+    -webkit-box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 25%);
+    -moz-box-shadow: 0px 0px 26px 12px rgba(5,5,5,0.83);
+    animation: pulse-black 1s infinite;
+}
+
+@keyframes pulse-black {
+    0% {
+    box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 83%);
+    -webkit-box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 25%);
+    -moz-box-shadow: 0px 0px 26px 12px rgba(5,5,5,0.83);
+    }
+
+    50% {
+        box-shadow: 0px 0px 100px 12px rgb(5 5 5 / 83%);
+        -webkit-box-shadow: 0px 0px 100px 12px rgb(5 5 5 / 25%);
+        -moz-box-shadow: 0px 0px 100px 12px rgba(5,5,5,0.83);
+    }
+    
+    100% {
+        box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 83%);
+        -webkit-box-shadow: 0px 0px 26px 12px rgb(5 5 5 / 25%);
+        -moz-box-shadow: 0px 0px 26px 12px rgba(5,5,5,0.83);
+    }
+  }
+
+img {
+
+    max-width: 100%;
+}
+
+.img_equilibrium {
+
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.margin_title{
+
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+
+.text_description{
+
+    font-weight: 300;
+    color: hsl(215, 51%, 70%);
+    font-size: 18px;
+}
+
+.value_etherum{
+
+    color: hsl(178, 100%, 50%);
+    font-weight: 400;
+
+}
+
+.time_etherum{
+
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.text
+{
+    margin-left: 5px;
+}
+
+hr {
+
+    color: hsl(215, 32%, 27%);    
+}
+
+.avatar_user {
+
+    border-color: #fff;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 25px;
+    max-width: 10%;
+}
+
+.first_part_text{
+
+font-size: 16px;
+font-weight: 400;
+color: hsl(215, 32%, 27%);
+margin-left: 10px;
+}
+
+.second_part_text{
+
+font-size: 16px;
+font-weight: 400;
+color: hsl(0, 0%, 100%);
+}
+
+.margin_user{
+
+    margin-bottom: 20px;
+}
